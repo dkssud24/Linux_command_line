@@ -1,0 +1,4 @@
+grep -f list.txt 00_root_ICD10.csv > test.csv
+
+
+#list.txt --> K10 \t E11 \t
