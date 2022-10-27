@@ -1,0 +1,5 @@
+find -type f
+
+find -type f > list.txt
+
+find -type /BiO/ f > list.txt
