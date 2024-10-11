@@ -1,0 +1,1 @@
+awk '{if(NR > 1) arr[$1]+=$6} END {for (i in arr) print i, arr[i]}' chr*/after_ensemble_EAS/PROSPER_prs_file.txt.v2.profile > merge.profile
